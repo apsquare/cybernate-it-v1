@@ -1,0 +1,19 @@
+.container {
+  display: inline-block;
+  font-family: "Ibarra Real Nova";
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  border: 2px solid black;
+  padding: 12px 24px;
+  border-radius: 200px;
+  margin-top: 20px;
+  width: 160px;
+  min-height: 50px;
+  border: 2px solid #ffffff;
+  transition: all 0.3s ease;
+}
+
+.container:hover {
+  box-shadow: 0 0 12px white;
+}

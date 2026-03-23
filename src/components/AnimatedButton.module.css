@@ -1,0 +1,46 @@
+.btn {
+  cursor: pointer;
+  position: relative;
+  margin-top: 26px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 24px;
+  border-radius: 200px;
+  background: none;
+  border: 2px solid #ffffff;
+  font-size: 21px;
+  overflow: hidden;
+  font-family: "Ibarra Real Nova";
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.btnVideo {
+  position: absolute;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0;
+
+  transition: opacity 1s ease-in-out;
+}
+
+.btn:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover .btnVideo {
+  opacity: 1;
+}
+
+.btnText {
+  color: white;
+  position: relative;
+  z-index: 2;
+  font-weight: 900;
+  cursor: pointer;
+}

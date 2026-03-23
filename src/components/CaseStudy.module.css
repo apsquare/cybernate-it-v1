@@ -1,0 +1,209 @@
+.completeScreen {
+  min-height: 100vh;
+  background-image: url("../assets/CaseStudy.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  padding: 10px 30px;
+  font-family: "Ibarra Real Nova";
+}
+
+.navigation {
+  padding: 10px 30px;
+}
+
+.header {
+  margin-top: 60px;
+  width: 760px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+
+  background-size: cover;
+   background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+}
+
+.headerTitle:hover,
+.headerText:hover {
+  text-shadow: 0 0 6px #ffffff57;
+}
+
+.headerTitle {
+  color: white;
+  font-family: "Ibarra Real Nova";
+  font-size: 50px;
+  text-align: center;
+  /* margin-top: ; */
+  /* background-color: aliceblue; */
+}
+
+.headerText {
+  padding: 4px;
+  font-size: 15px;
+  text-align: center;
+  color: rgba(223, 211, 211, 0.961);
+  max-width: 600px;
+}
+
+.workForce {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr;
+  color: white;
+  margin-top: 40px;
+  height: 460px;
+  width: 760px;
+   background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  text-align: center;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.workForce:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(255, 255, 255, 0.651);
+  cursor: pointer;
+}
+
+.contentTitle {
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  font-size: 35px;
+  grid-column: 1/-1;
+}
+
+/* -------------------------Client Context -------------------------- */
+
+.innerContext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  justify-self: stretch;
+  margin-bottom: 7px;
+}
+
+.innerTitle {
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.innerText {
+  text-align: center;
+  font-size: 15px;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+.badgeWrap {
+  display: inline-flex;
+  gap: 20px;
+  position: relative;
+  border-radius: 999999px;
+  text-align: center;
+
+  white-space: nowrap;
+  width: auto;
+  height: auto;
+  justify-self: center;
+  align-self: center;
+  animation: float 3s ease-in-out infinite;
+}
+
+.badges {
+  text-align: center;
+  position: relative;
+  font-size: 15px;
+  padding: 6px 16px;
+   background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 99999px;
+}
+.badges:nth-child(1) {
+  animation: float1 3s ease-in-out infinite;
+}
+.badges:nth-child(2) {
+  animation: float2 2.5s ease-in-out infinite;
+}
+.badges:nth-child(3) {
+  animation: float3 3.5s ease-in-out infinite;
+}
+
+@keyframes float1 {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(20px, -10px);
+  }
+  50% {
+    transform: translate(-15px, -20px);
+  }
+  75% {
+    transform: translate(10px, -5px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes float2 {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(-20px, -5px);
+  }
+  50% {
+    transform: translate(15px, -15px);
+  }
+  75% {
+    transform: translate(-10px, -10px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes float3 {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(15px, -15px);
+  }
+  50% {
+    transform: translate(-20px, -25px);
+  }
+  75% {
+    transform: translate(10px, -10px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+
+.footerBar{
+  margin-top: 50px;
+}

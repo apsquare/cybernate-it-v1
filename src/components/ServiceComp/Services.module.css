@@ -1,0 +1,149 @@
+/* html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overscroll-behavior: none;
+  background-color: #0b0b0b;
+} */
+
+.completeScreen {
+  min-height: 100vh;
+  background-image: url("../../assets//CaseStudy.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  background-position: center;
+  font-family: "Ibarra Real Nova";
+  background-size: cover;
+  color: white;
+  flex: 1;
+}
+
+.navigation {
+  padding: 10px 30px;
+}
+.header {
+  margin-top: 60px;
+  width: 760px;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+
+  background-size: cover;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  padding: 30px;
+}
+.headerTitle:hover,
+.headerText:hover {
+  text-shadow: 0 0 6px #ffffff57;
+}
+.headerTitle {
+  color: white;
+  font-family: "Ibarra Real Nova";
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+}
+.headerText {
+  padding: 4px;
+  font-size: 15px;
+  text-align: center;
+  color: rgba(223, 211, 211, 0.961);
+  max-width: 600px;
+  line-height: 20px;
+}
+
+.featureContainer {
+  margin-top: 50px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+   background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 760px;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.featureContainerTitle {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.featureContainerMiniText {
+  font-size: 15px;
+  color: rgba(223, 211, 211, 0.961);
+}
+
+.featureContainerText {
+  font-size: 15px;
+}
+
+.splitBox {
+  display: flex;
+  gap: 90px;
+  text-align: left;
+  justify-content: center;
+}
+
+.splitBoxLeft {
+  border-radius: 30px;
+  padding: 20px;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+}
+
+.splitBoxRight {
+  border-radius: 30px;
+  padding: 20px;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+}
+
+.splitBoxTitle {
+  font-size: 15px;
+}
+
+.splitBoxText {
+  font-size: 12px;
+  max-width: 260px;
+}
+
+.invitation {
+  width: 760px;
+  padding: 30px;
+
+  margin: 50px;
+  display: flex;
+   background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.invitationTitle {
+  font-size: 21px;
+}
+
+.invitationText {
+  margin-top: 10px;
+  font-size: 15px;
+}

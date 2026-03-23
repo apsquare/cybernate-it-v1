@@ -1,0 +1,16 @@
+.hidden {
+  opacity: 80%;
+  filter: blur(10px);
+  /* background-color: rgba(146, 151, 155, 0.407); */
+  transform: translateY(30px);
+  transition:
+    opacity 1.5s ease,
+    transform 1s ease,
+    filter 1.5s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+  filter: none;
+}

@@ -1,0 +1,135 @@
+.container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  min-height: 100vh;
+  background: #96aba9;
+}
+/* 33 15 */
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: "Ibarra Real Nova", sans-serif;
+  text-align: center;
+  padding: 40px 24px;
+}
+
+.leftTitle {
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  line-height: 1.2;
+  max-width: 420px;
+}
+
+.leftText {
+  text-align: center;
+  padding: 20px 0;
+  max-width: 320px;
+  font-size: 19px;
+  line-height: 1.6;
+}
+
+.right {
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) 120px minmax(220px, 1fr);
+  grid-template-rows: repeat(3, minmax(160px, auto));
+  grid-template-areas:
+    "img1 arrowTop text1"
+    "text2 arrowBottom img2"
+    "img3 . text3";
+  align-items: center;
+  justify-items: center;
+  column-gap: 20px;
+  row-gap: 24px;
+  padding: 40px 32px;
+  font-family: "Ibarra Real Nova", sans-serif;
+  text-align: center;
+}
+
+/* place the existing children into proper grid areas */
+.right > .imageContainer:nth-of-type(1) {
+  grid-area: img1;
+}
+
+.right > div:nth-child(2) {
+  grid-area: text1;
+}
+
+.right > div:nth-child(3) {
+  grid-area: text2;
+}
+
+.right > .imageContainer:nth-of-type(2) {
+  grid-area: img2;
+}
+
+.right > .imageContainer:nth-of-type(3) {
+  grid-area: img3;
+}
+
+.right > div:nth-child(6) {
+  grid-area: text3;
+}
+
+.right > div:nth-child(7) {
+  grid-area: arrowBottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right > div:nth-child(8) {
+  grid-area: arrowTop;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightImage1,
+.rightImage3 {
+  height: 150px;
+  width: auto;
+  max-width: 100%;
+}
+
+.rightImage2 {
+  height: 190px;
+  width: auto;
+  max-width: 100%;
+}
+
+.rightTitle {
+  font-weight: 700;
+  font-size: 33px;
+  color: white;
+  margin-bottom: 12px;
+  line-height: 1.2;
+}
+
+.rightText {
+  text-align: center;
+  color: white;
+  font-family: "Ibarra Real Nova", sans-serif;
+  font-size: 15px;
+  max-width: 260px;
+  line-height: 1.6;
+}
+
+.LeftArrow,
+.RightArrow {
+  height: 150px;
+  width: auto;
+  display: block;
+}

@@ -1,0 +1,44 @@
+.heroImage {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.heroText {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 32px;
+  min-height: 100vh;
+}
+
+.abilities {
+  margin-top: 0;
+  display: flex;
+  gap: 8px;
+  font-size: 16px;
+  font-family: "Ibarra Real Nova", serif;
+  flex-wrap: wrap;
+  line-height: 1.5;
+}
+
+.title {
+  margin-top: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  max-width: 520px;
+  font-size: 36px;
+  line-height: 1.25;
+}
+
+.miniText {
+  margin-top: 20px;
+  max-width: 480px;
+  font-family: "Molengo", sans-serif;
+  font-weight: 400;
+  color: #abb5c0;
+  font-size: 16px;
+  line-height: 1.6;
+}

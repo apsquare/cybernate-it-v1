@@ -1,0 +1,67 @@
+.footer {
+  display: flex;
+  bottom: 0px;
+  background-color: rgba(255, 255, 255, 0.31);
+  height: 123px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.left {
+  padding: 20px;
+  font-family: "Ibarra Real Nova", sans-serif;
+  font-size: 11px;
+  max-width: 250px;
+  line-height: 16px;
+}
+
+.footerTitle {
+  font-weight: 700;
+  color: white;
+  opacity: 100%;
+}
+
+.footerText {
+  color: white;
+  opacity: 71%;
+}
+
+.socialMedia {
+  margin-top: 10px;
+  height: 20px;
+}
+
+.right {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px;
+  font-family: "Ibarra Real Nova", sans-serif;
+  font-size: 11px;
+
+  /* max-width: 250px; */
+  line-height: 16px;
+}
+
+.rightTitle {
+  font-weight: 900;
+  color: white;
+  margin-right: 20px;
+}
+
+.sendButton {
+  height: 10px;
+  width: 10px;
+}
+
+.sendImg {
+  height: 25px;
+  width: 25px;
+}
+
+.inputBox {
+  border-radius: 35px;
+  width: 250px;
+  /* padding: 5px; */
+}

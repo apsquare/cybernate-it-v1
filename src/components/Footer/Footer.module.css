@@ -1,0 +1,105 @@
+.container {
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+
+  font-family: "Ibarra Real Nova";
+  color: white;
+}
+
+.faqWrapper {
+  width: 90%;
+  max-width: 900px;
+}
+
+.mainContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 40px 20px;
+  gap: 15px;
+}
+
+.header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.headerTitle {
+  font-size: 45px;
+}
+
+.headerText {
+  font-size: 24px;
+}
+
+.contentBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: #ffffff44;
+  width: 90%;
+  max-width: 900px;
+  min-height: 80px;
+  padding: 0 1%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.questionRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60px;
+  padding: 0 1%;
+  flex-shrink: 0;
+}
+
+.contentText {
+  font-size: 20px;
+  margin-left: 3%;
+}
+
+.contentButton {
+  margin-right: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.contentImage {
+  height: 35px;
+  width: 35px;
+}
+
+.buttonWrap {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.GetInTouchButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropDown {
+  font-size: 16px;
+  transition: all 0.35sec ease-in-out;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: transform 0.35sec ease-in-out;
+}
